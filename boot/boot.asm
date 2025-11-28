@@ -33,7 +33,7 @@ clrscr:
     int 0x10                    ; BIOS (UEFI) print interupt
     ret                         ; Return
 
-msg db "READING FROM SECTOR 2", 0
+msg db "IF YOU SEE THIS. WELCOME", 0
 %include "print/prn.asm"
 %include "disk/dskrd.asm"
 
